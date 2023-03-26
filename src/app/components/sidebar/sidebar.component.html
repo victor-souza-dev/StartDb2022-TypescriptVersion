@@ -1,0 +1,16 @@
+<mat-drawer-container>
+  <mat-drawer #drawer class="sidebar" [opened]="isOpen">
+    <div>
+      <section class="sidebar__content--header">
+        <app-header-sidebar></app-header-sidebar>
+      </section>
+      <section class="sidebar__content--footer">
+        <app-switch-theme-icon></app-switch-theme-icon>
+      </section>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content>
+    <ng-content></ng-content>
+  </mat-drawer-content>
+  
+</mat-drawer-container>

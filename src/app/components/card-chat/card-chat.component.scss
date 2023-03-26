@@ -1,0 +1,108 @@
+.card-chat {
+  padding: 0px 15px 15px 15px;
+  background-color: transparent;
+  color: var(--title);
+  box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.2), 0px 0px 1px 0px rgba(0,0,0,0.14), 0px 0px 5px 0px var(--borderColor);
+}
+
+.card-chat__title {
+  position: relative;
+  top: -10px;
+  background-color: var(--backgroundColor);
+  width: 40%;
+  padding: 0 5px;
+}
+
+.card-chat__container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.card-chat__content {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-shadow: 0px 0px 1px -1px rgba(0,0,0,0.2), 0px 0px 1px 0px rgba(0,0,0,0.14), 0px 0px 5px 0px var(--borderColor);
+}
+
+.card-chat__content--listContainer {
+  width: 100%;
+  margin: 10px 0 2px 0;
+  font-size: 14px;
+  caret-color: transparent;
+}
+
+.card-chat__content--listContainer-divider {
+  margin-bottom: 10px;
+  background-color: var(--title);
+}
+
+.card-chat__actions {
+  align-items: center;
+  padding: 5px 0;
+  margin-top: 15px;
+  input {
+    caret-color: transparent;
+  }
+}
+
+.card-chat__actions--label {
+  color: var(--title);
+}
+
+::ng-deep .mat-mdc-form-field-subscript-wrapper {
+  caret-color: transparent !important;
+}
+
+::ng-deep .mat-mdc-form-field-flex { 
+  height: 40px;
+  font-size: 14px; 
+  
+  label {
+    top: 22px !important;
+    font-size: 14px;
+  }
+  input {
+    position: relative;
+    top: -5px;
+    color: var(--title) !important;
+  }
+}
+
+::ng-deep .mat-mdc-form-field-subscript-wrapper {
+  display: none;
+}
+
+::ng-deep .mat-mdc-text-field-wrapper {
+  background-color: var(--inputBackground) !important;
+}
+
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::after {
+  border-bottom-color: #1977D2;
+}
+
+.ng-tns-c7-0 {
+  top: -8px;
+  color: #1977D2;
+}
+
+
+.card-chat__actions--sendButton {
+  width: 40px !important;
+  height: 40px !important;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 0px 0px 2px !important;
+  color: white;
+  background-color: #1977D2;
+
+  .card-chat__actions--sendButton_icon {
+    font-size: 20px;
+  }
+}

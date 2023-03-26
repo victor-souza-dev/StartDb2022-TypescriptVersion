@@ -1,0 +1,11 @@
+<button mat-icon-button class="switchThemeIcon" (click)="toggleTheme()">
+  <ng-container *ngIf="isTheme;then bg4 else bg7" />
+  
+  <ng-template #bg4>
+    <mat-icon #bg4>brightness_4</mat-icon>
+  </ng-template>
+
+  <ng-template #bg7>
+    <mat-icon>brightness_7</mat-icon>
+  </ng-template>
+</button>

@@ -1,0 +1,10 @@
+.closeSidebarIcon {
+  background-color: none;
+  border: none;
+  margin-right: 10px;
+  color: var(--title);
+
+  &:hover {
+    background-color: var(--iconHover);
+  }
+}

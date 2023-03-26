@@ -1,0 +1,19 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.theme-dark {
+  --backgroundColor: #161618;
+  --title: #ffff;
+  --textColor: #0f0f11;
+  --borderColor: #3E3E44;
+  --inputBackground: #3F3E44;
+  --iconHover: #3d3d3d;
+}
+.theme-light {
+  --backgroundColor: #ffff;
+  --title: #161618;
+  --textColor: #6F6E77;
+  --borderColor: #B2B0B4;
+  --inputBackground: #F5F5F5;
+  --iconHover: #efefef;
+}

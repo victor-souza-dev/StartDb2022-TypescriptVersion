@@ -1,0 +1,18 @@
+.content-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 50px 40px 0 40px;
+
+  div:first-child {
+    display: flex;
+    justify-content: center;
+    flex: 0.64;
+  }
+  div:last-child {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
