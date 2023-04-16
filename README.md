@@ -1,27 +1,17 @@
-# Angular
+# StartDB2022 - TypescriptVersion
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+## Front-End | Angular
 
-## Development server
+### Para testar o projeto siga os seguintes passos:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* Clone o repositório: `git clone -b Angular https://github.com/KlowdyTMS/StartDb2022-TypescriptVersion.git`
 
-## Code scaffolding
+* Navegue até a pasta do React: `cd Angular`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Tenha o Node.js instalado em sua máquina, caso não o tenha, baixe-o: https://nodejs.org/en
 
-## Build
+* Instale as dependências do projeto: `npm i`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Após tudo ser instalado, execute o comando: `npm start`
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Por fim, abra no navegador a página, que estará rodando no localhost sob a porta especificada no terminal, após o comando anterior.
