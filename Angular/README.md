@@ -15,4 +15,3 @@
 * Após tudo ser instalado, execute o comando: `npm start`
 
 Por fim, abra no navegador a página, que estará rodando no localhost sob a porta especificada no terminal, após o comando anterior.
->>>>>>> 4679d5d4eae2b4377350007b973b043fe252d861
